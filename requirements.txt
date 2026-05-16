@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary
+httpx
+PyPDF2
+python-docx
+python-multipart
+pydantic
+python-dotenv
+pdf2image
+pytesseract
+gunicorn
