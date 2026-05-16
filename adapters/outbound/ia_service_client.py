@@ -4,7 +4,7 @@ from domain.ports import IaClientPort
 class HttpIaClientAdapter(IaClientPort):
     def __init__(self):
         # A URL do seu outro microsserviço
-        self.url_ia = "http://ms-processamento-ia:5004/api/analisar"
+        self.url_ia = "https://docuia-api-ia.azurewebsites.net/api/analisar"
 
     async def classificar_documento(self, texto: str) -> dict:
         # Timeout de 30 segundos porque a IA do Google leva um tempinho para ler
